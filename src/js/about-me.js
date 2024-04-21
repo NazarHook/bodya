@@ -4,7 +4,7 @@ import 'accordion-js/dist/accordion.min.css';
 
 const acc = document.getElementsByClassName('accordion');
 
-const accBtn = document.querySelector('#acc-btn')
+const accBtn = document.querySelector('#acc-btn');
 
 accBtn.addEventListener('click', ()=>{
   accBtn.classList.toggle('active-btn')
